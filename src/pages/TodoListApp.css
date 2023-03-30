@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(236, 236, 238);
+  padding-inline: 1rem;
+}
+
+main {
+  background-color: rgb(127, 127, 199);
+  max-width: 500px;
+  margin: 3rem auto 0;
+  border-radius: .5rem;
+  padding: 1rem 1rem .15rem;
+  min-height: 50vh;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.filterAndCounting {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin-top: 1rem;
+}

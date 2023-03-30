@@ -1,0 +1,29 @@
+.filter-buttons {
+  display: flex;
+  gap: .5rem;
+}
+
+.filter-buttons button {
+  border: none;
+  color: white;
+  border-radius: .35rem;
+  box-shadow: -3px 0px 10px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  font-weight: bold;
+}
+
+.filter-buttons button:nth-child(1) {
+  background-color: transparent;
+}
+
+.filter-buttons button:nth-child(2) {
+  background-color: rgb(204, 145, 57);
+}
+
+.filter-buttons button:nth-child(3) {
+  background-color: rgb(113, 172, 113);
+}

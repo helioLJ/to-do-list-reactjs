@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1rem Robot, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  transition: filter 200ms;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+footer {
+  text-align: center;
+  margin-top: .5rem;
+}

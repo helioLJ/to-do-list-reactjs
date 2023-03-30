@@ -1,0 +1,42 @@
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 1rem;
+  border-radius: .25rem;
+  padding: .75rem .75rem;
+  color: rgb(51, 45, 45);
+}
+
+.completedTodo div p {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.leftTodoItem {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.leftTodoItem input {
+  height: 1.2rem;
+  width: 1.2rem;
+  cursor: pointer;
+}
+
+.leftTodoItem p {
+  font-weight: 600;
+}
+
+.rightTodoItem {
+  display: flex;
+  gap: .5rem;
+}
+
+.rightTodoItem button {
+  background: transparent;
+  border: none;
+  color: rgb(51, 45, 45);
+}
